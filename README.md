@@ -57,6 +57,7 @@ Example:
 ## 📂 Folder Structure
 
 This is how the folder structure should be:
+```bash
 minecraft_sounds_vscode/
 ├── src/                   # TypeScript source
 ├── sounds/                # 🔇 Not included — add your own .wav files
@@ -65,7 +66,7 @@ minecraft_sounds_vscode/
 ├── tsconfig.json          # TypeScript configuration
 ├── CHANGELOG.md           # Full feature history
 ├── README.md              # This file
-
+```
 
 ## 🆕 Release History (from CHANGELOG)
 
