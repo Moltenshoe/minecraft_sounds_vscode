@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Minecraft Sounds for VS Code (Source Repository)
 
 🎮 This is the **source code** for the *Minecraft Sounds* extension for Visual Studio Code. It adds immersive, Minecraft-inspired sound effects to common VS Code actions like typing, saving, renaming files, and more.
@@ -104,3 +105,7 @@ minecraft_sounds_vscode/
 ## Author
 
 Kottapalli Trishanth, BTech student at IIIT Naya Raipur
+=======
+# minecraft_sounds_vscode
+Adds minecraft sounds for the vscode for better experience while coding!
+>>>>>>> c513a9346acdb6b4ce9df3634ae6ca41365278e0
