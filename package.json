@@ -1,0 +1,26 @@
+{
+  "name": "minecraft-sounds",
+  "displayName": "Minecraft Sounds",
+  "description": "Plays Minecraft sounds for VSCode events like typing, saving, or errors.",
+  "version": "0.2.1",
+  "publisher": "Moltenshoe",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": ["Fun", "Themes"],
+  "activationEvents": ["*"],
+  "main": "out/extension.js",
+  "contributes": {
+    "commands": []
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p .",
+    "prepublish": "npm run compile"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.30",
+    "@types/vscode": "^1.99.0"
+  }
+}

@@ -1,0 +1,50 @@
+MIT License © 2025 Moltenshoe
+
+
+---
+
+## ✅ `README-extension.md` (for VS Code Marketplace)
+
+Save this as `README-extension.md` and **rename it to `README.md` before packaging**:
+
+```markdown
+# 🟫 Minecraft Sounds for VS Code
+
+Bring your IDE to life with nostalgic Minecraft sound effects for common coding actions.
+
+---
+
+## 🔊 Features
+
+- Typing: Sand
+- Deleting: Glass
+- Saving: Piston extend/retract
+- Hovering errors: Villager “No!”
+- File Rename: Anvil
+- File Delete: Lava
+- File Create: Firework
+- Open Settings: Anvil land
+- Undo/Redo: Piston in/out
+- Terminal open/close: Enchanting table
+
+---
+
+## ❗ Sound Files Not Included
+
+To avoid copyright issues, this extension ships **without** sound files.
+
+To use:
+1. Create a `sounds/` folder in the extension directory
+2. Add your own `.wav` files named accordingly (e.g., `no1.wav`, `click.wav`, etc.)
+
+---
+
+## 💡 Tips
+
+- Works best with `.wav` files.
+- You can use free sound replacements or record your own.
+- Sound playback uses `play-sound`, and falls back to `ffplay` if necessary.
+
+---
+
+MIT © 2025 Moltenshoe
